@@ -1,16 +1,61 @@
-# React + Vite
+# AI Transformation Report - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based transformation of the Business Analytics Case Study for Veteran Medical Exams LLC and TeleRxNow.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern React Architecture**: Built with Vite and React for speed and scalability.
+- **Premium Design**: Dark-theme aesthetics with Lucide-React icons and glassmorphism.
+- **Interactive Metrics**: Performance indicators for ROI, efficiency, and retention.
+- **Responsive Layout**: Fully optimized for mobile and desktop.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v18.0 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/awaisavancera-rgb/AI-report.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd AI-report
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+### Build
+
+Generate a production-ready build:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+You can deploy this React app for free using:
+
+- **Vercel**: Simply connect this GitHub repository to Vercel.
+- **Netlify**: Connect the repo or drag-and-drop the `dist` folder after running `npm run build`.
+- **GitHub Pages**: Follow the standard deployment guide for Vite apps on GitHub Pages.
